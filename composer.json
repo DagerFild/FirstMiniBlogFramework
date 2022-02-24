@@ -1,0 +1,19 @@
+{
+  "name": "dagerfild/myproject",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "DagerFild",
+      "email": "dagerfild@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MyProject\\": "src/MyProject/"
+    }
+  },
+  "require": {
+    "erusev/parsedown": "^1.7"
+  }
+}
